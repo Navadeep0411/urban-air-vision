@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar";
 import EnvironmentalHeader from "@/components/EnvironmentalHeader";
 import AirQualityMap from "@/components/AirQualityMap";
 import PollutantChart from "@/components/PollutantChart";
@@ -9,7 +10,9 @@ const Index = () => {
   const o3Forecast = [142, 145, 149, 152, 155, 158, 160, 162, 159, 156, 153, 150, 148, 145, 142, 140, 138, 141, 144, 147, 150, 153, 156, 154];
 
   return (
-    <div className="min-h-screen bg-background">
+    <>
+      <Navbar />
+      <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <div 
         className="relative h-64 bg-cover bg-center"
@@ -89,7 +92,8 @@ const Index = () => {
           </div>
         </section>
       </div>
-    </div>
+      </div>
+    </>
   );
 };
 

@@ -47,6 +47,16 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Environmental air quality colors
+        "air-excellent": "hsl(var(--air-excellent))",
+        "air-good": "hsl(var(--air-good))",
+        "air-moderate": "hsl(var(--air-moderate))",
+        "air-unhealthy": "hsl(var(--air-unhealthy))",
+        "air-hazardous": "hsl(var(--air-hazardous))",
+        // Pollutant specific colors
+        "no2-color": "hsl(var(--no2-color))",
+        "o3-color": "hsl(var(--o3-color))",
+        "pm25-color": "hsl(var(--pm25-color))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +67,15 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        "gradient-earth": "var(--gradient-earth)",
+        "gradient-pollution": "var(--gradient-pollution)",
+        "gradient-hero": "var(--gradient-hero)",
+      },
+      boxShadow: {
+        "environmental": "var(--shadow-environmental)",
+        "data": "var(--shadow-data)",
       },
       borderRadius: {
         lg: "var(--radius)",
